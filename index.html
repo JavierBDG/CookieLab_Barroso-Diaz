@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CookieLab</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1> CookieLab</h1>
+  <p id="saludo"></p>
+  <p id="contador"></p>
+  <p id="ultimaVisita"></p>
+
+  <!-- Fase 3: Preferencias -->
+  <section class="preferencias">
+    <label for="selectTema">Tema:</label>
+    <select id="selectTema">
+      <option value="claro">Claro</option>
+      <option value="oscuro">Oscuro</option>
+    </select>
+
+    <label for="selectIdioma">Idioma:</label>
+    <select id="selectIdioma">
+      <option value="es">Español</option>
+      <option value="en">Inglés</option>
+    </select>
+  </section>
+
+  <!-- Fase 5: Panel de control -->
+  <section class="panel-control">
+    <button id="btnCambiarNombre">Cambiar mi nombre</button>
+    <button id="btnOlvidarme">Olvidarme</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

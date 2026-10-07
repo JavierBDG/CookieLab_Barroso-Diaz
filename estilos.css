@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+}
+
+body.oscuro {
+  --bg-color: #1e1e1e;
+  --text-color: #f4f4f4;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+section {
+  margin-top: 1.5rem;
+}
+
+button, select {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
