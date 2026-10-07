@@ -126,7 +126,7 @@ btnCambiarNombre.addEventListener("click", () => {
     setCookie("usuario", nuevoNombre.trim());
     actualizarTextoSaludo(nuevoNombre.trim());
   }
-});  
+});   
   
 btnOlvidarme.addEventListener("click", () => {
   const confirmar = confirm("¿Estás seguro/a de que quieres borrar todos tus datos?");
